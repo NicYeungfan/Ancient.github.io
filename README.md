@@ -30,6 +30,8 @@
             border-radius: 4px;
             padding: 5px;
             background-color: white;
+            object-fit: cover; /* Ensures proper aspect ratio */
+            aspect-ratio: 4 / 3; /* Adjusts the ratio to a common 4:3 ratio */
         }
     </style>
 </head>
@@ -48,3 +50,4 @@
     </div>
 </body>
 </html>
+
